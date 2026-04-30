@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="playlist.xsl"?>
+<playlist>
+  <track>
+    <title>Soundtrack to my Life</title>
+    <artist>Kid Cudi</artist>
+    <album>Man on the Moon: The End of Day</album>
+    <link>https://youtu.be/c4zeGoka4tg?si=AsliNfRhlzQLO0Ta</link>
+  </track>
+  <track>
+    <title>Dadvocate</title>
+    <artist>Childish Gambino</artist>
+    <album>Bando Stone and The New World</album>
+    <link>https://youtu.be/kqtOcEmTsrs?si=KkIWf-a8GOAOSTAg</link>
+  </track>
+   <track>
+    <title>Cant Get Enough </title>
+    <artist>J.Cole</artist>
+    <album>Can't Get Enough</album>
+    <link>https://youtu.be/laV9Cde4hIg?si=ksEm5ZZMGrOTQHun</link>  
+  </track>
+    <track>
+    <title>In Love</title>
+    <artist>Kid Cudi</artist>
+    <album>Entergalactic</album>
+    <link>https://youtu.be/laV9Cde4hIg?si=B1z_vMl_JI9zWwqM</link>  
+  </track>
+    <track>
+    <title>Sweet November</title>
+    <artist>SZA</artist>
+    <album>Z</album>
+    <link>https://youtu.be/vpSPGfv9KoA?si=mALB0qRCFqVQFAhl</link>  
+  </track>
+</playlist>
