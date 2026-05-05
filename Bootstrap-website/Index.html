@@ -1,33 +1,40 @@
 <!doctype html>
-<html lang="en" class="h-100 w-100"> 
+<html lang="en" class="h-100 w-100">
 
 <head>
-    <link rel="stylesheet" href="bootstrap-website.css">
+  <link rel="stylesheet" href="bootstrap-website.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Water Journal</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">  
-</head> 
-<body class="h-100 w-100 d-flex flex-column fs-5" data-bs-theme="light">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <style>
+    .thumb {
+      object-fit: cover;
+      height: 500px;
+    }
+  </style>
+</head>
+
+<body class="h-100 w-100 d-flex flex-column fs-5" data-bs-theme="light">
   <nav class="navbar navbar-expand-lg navbar-dark bg-info" aria-label="navbar">
-    <div class="container"> <a class="navbar-brand" href="#">Amanda Harrington</a> <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
-        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="container"> <a class="navbar-brand" href="#">Amanda's Water Journal</a> <button class="navbar-toggler"
+        type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"> <a class="nav-link active" aria-current="page" href="Index.html">Home</a></li>
           <li class="nav-item"> <a class="nav-link" href="About.html">About</a></li>
-          <li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"> <a class="nav-link" href="SCUBA.html">SCUBA</a></li>
+          <li class="nav-item"> <a class="nav-link" href="Sailing.html">Sailing</a></li>
+          <li class="nav-item"> <a class="nav-link" href="Marine Life.html">Marine Life</a></li>
         </ul>
-        <form role="search"> <input class="form-control" type="search" placeholder="Search" aria-label="Search"> </form>
       </div>
-      </div>
+    </div>
   </nav>
-        <!--This is the banner-->
-        <section class="text-white text-center mb-5"
-  style="
+  <!--This is the banner-->
+  <section class="text-white text-center mb-5" style="
     background-image: url(Images/DiverAH.JPG);
     background-size: cover;
     background-position: center left;
@@ -35,87 +42,99 @@
     display: flex;
     align-items: center;
     justify-content: center;">
-  <div style="background-color: rgba(0,0,0,0.45); padding: 3rem; border-radius: 0.75rem;">
-    <h1 class="display-3 fw-bold">Amanda On the Water</h1>
-    <p class="lead mb-4">Adventurer. Paddler. Storyteller on the water.</p>
-    <a href="#stories" class="btn btn-info btn-lg" aria-label="Jump to Amanda's water stories">
-      Read My Stories
-    </a>
-  </div>
-</section>
-<main class="container flex-grow-1 pt-2">
-        <div class="header py-3"></div>
-      <h1>All About Amanda</h1>
-      <p> Welcome to a space all about me! Here I will have my goals, my experiences, and some neat pictures of me out on the water.</p>
-      <section id="stories" class="py-5">
-  <h2 class="mb-4">My Adventures</h2>
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
-    <!-- Card 1 -->
-    <div class="col">
-      <div class="card h-100 shadow-sm">
-        <img src="Images/diver.JPG" class="card-img-top" alt="Describe what is happening in this photo">
-        <div class="card-body">
-          <span class="badge bg-info mb-2">Scuba Diving</span>
-          <h3 class="card-title h5">5 Days Out to Sea</h3>
-          <p class="card-text">Info</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">
-            <i class="bi bi-geo-alt"></i> Bahamas Tour
-          </small>
-        </div>
-      </div>
+    <div style="background-color: rgba(0,0,0,0.45); padding: 3rem; border-radius: 0.75rem;">
+      <h1 class="display-3 fw-bold">A Woman of the Water</h1>
+      <p class="lead mb-4">Adventurer. Paddler. Storyteller on the sea.</p>
+      <a href="#stories" class="btn btn-info btn-lg" aria-label="Jump to Amanda's water stories">
+        Read My Stories
+      </a>
     </div>
+  </section>
+  <main class="container flex-grow-1 pt-2">
+    <div class="header py-3"></div>
+    <h1>Welcome to My Digital Water Journal!</h1>
+    <p> This site is a collection of my water related adventures, stories, pictures, and struggles. My love for the
+      ocean came at a very young age when me and my family would go out to the beach, go on boats, and when I learned
+      how to SCUBA dive. At the age of 10, I got my Virginia Boaters license, and at 11 I was taking myself and my
+      sisters out to explore inlets on the bay my grandmother lived on. </p>
+    <section id="stories" class="py-5">
+      <h2 class="mb-4">My Adventures</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-    <!-- Card 2 -->
-    <div class="col">
-      <div class="card h-100 shadow-sm">
-        <img src="Images/Hard Labor.jpg" class="card-img-top" alt="Describe what is happening in this photo">
-        <div class="card-body">
-          <span class="badge bg-info mb-2">Ahoy!</span>
-          <h3 class="card-title h5">My History in Sailing</h3>
-          <p class="card-text">Info</p>
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="Images/diver.JPG" class="card-img-top thumb" alt="Describe what is happening in this photo">
+            <div class="card-body">
+              <span class="badge bg-info mb-2">Scuba Diving</span>
+              <h3 class="card-title h5">5 Days Out to Sea</h3>
+              <p class="card-text">I had the opportunity to go on 2 different five day SCUBA charters exploring the waters around the Bahamas, diving with incredible marine life and experiencing the beauty of the Caribbean Sea.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                <i class="bi bi-geo-alt"></i> Bahamas Tour
+              </small>
+            </div>
+          </div>
         </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">
-            <i class="bi bi-geo-alt"></i> Great Peconic Bay
-          </small>
+
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="Images/Hard Labor.jpg" class="card-img-top thumb" alt="Describe what is happening in this photo">
+            <div class="card-body">
+              <span class="badge bg-info mb-2">Ahoy!</span>
+              <h3 class="card-title h5">My History in Sailing</h3>
+              <p class="card-text">From learning how to sail on a 16ft Sunfish, to racing in my counties sailing club,
+                and eventually going on to be a part of the sailing team at Virginia Tech, Ive always had a love for
+                being out on the water and learning how to harness the power of the wind.</p>
+              
+            </div>
+            <div class="card-footer">
+                <small class="text-body-secondary">
+                  <i class="bi bi-geo-alt"></i> Great Peconic Bay
+                </small>
+              </div>
+          </div>
         </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="Images/ManOWar.jpg" class="card-img-top thumb" alt="Describe what is happening in this photo">
+            <div class="card-body">
+              <span class="badge bg-info mb-2">Exploring</span>
+              <h3 class="card-title h5">Studying Marine Life</h3>
+              <p class="card-text">To growing up real life Jellyfishing, saving horseshoe crabs, and eventually going on
+                to study ocean invertebrates at Virginia Tech, Ive always had an interest in the crazy world of marine
+                life.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">
+                <i class="bi bi-geo-alt"></i> Blacksburg, VA
+              </small>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="col">
-      <div class="card h-100 shadow-sm">
-        <img src="Images/ManOWar.jpg" class="card-img-top" alt="Describe what is happening in this photo">
-        <div class="card-body">
-          <span class="badge bg-info mb-2">Exploring</span>
-          <h3 class="card-title h5">Jellyfish Attack</h3>
-          <p class="card-text">Info</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">
-            <i class="bi bi-geo-alt"></i> Location Name
-          </small>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
+    </section>
   </main>
   <footer class="mt-auto border-top">
     <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
-      <div class="col-md-4 d-flex align-items-center"><span class="mb-3 mb-md-0 ps-1 text-body-secondary">© 2026 Amanda H, Inc</span></div>
+      <div class="col-md-4 d-flex align-items-center"><span class="mb-3 mb-md-0 ps-1 text-body-secondary">© 2026 Amanda
+          H, Inc</span></div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><i
+              class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><i
+              class="bi bi-facebook"></i></a></li>
       </ul>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-</body> 
+</body>
+
 </html>

@@ -14,7 +14,7 @@
           .container {
             width: 700px;
             margin: 50px auto;
-            font-family: "Helvetica Neue", "Arial", sans-serif;
+            font-family: spectral, serif;
             font-size: 18px;
           }
 
