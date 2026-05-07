@@ -17,11 +17,15 @@
   </style>
 </head>
 
-<body class="h-100 w-100 d-flex flex-column fs-5" data-bs-theme="light">
+<body style="background-color: #e6f5ff;" class="h-100 w-100 d-flex flex-column fs-5" data-bs-theme="light">
   <nav class="navbar navbar-expand-lg navbar-dark bg-info" aria-label="navbar">
-    <div class="container"> <a class="navbar-brand" href="#">Amanda's Water Journal</a> <button class="navbar-toggler"
-        type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
-        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="container"> 
+      <a class="navbar-brand" href="Index.html">
+        <i class="bi bi-droplet-fill me-2"></i>Amanda's Water Journal
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"> <a class="nav-link active" aria-current="page" href="Index.html">Home</a></li>
@@ -43,7 +47,7 @@
     align-items: center;
     justify-content: center;">
     <div style="background-color: rgba(0,0,0,0.45); padding: 3rem; border-radius: 0.75rem;">
-      <h1 class="display-3 fw-bold"></h1>
+      <h1 class="display-3 fw-bold">Amanda Harrington</h1>
       <p class="lead mb-4">Adventurer. Paddler. Storyteller on the sea.</p>
       <a href="#stories" class="btn btn-info btn-lg" aria-label="Jump to Amanda's water stories">
         Read My Stories
@@ -51,70 +55,73 @@
     </div>
   </section>
   <main class="container flex-grow-1 pt-2">
-    <div class="header py-3"></div>
-    <h1>Welcome to My Digital Water Journal!</h1>
-    <p> This site is a collection of my water related adventures, stories, pictures, and struggles. My love for the
-      ocean came at a very young age when me and my family would go out to the beach, go on boats, and when I learned
-      how to SCUBA dive. At the age of 10, I got my Virginia Boaters license, and at 11 I was taking myself and my
-      sisters out to explore inlets on the bay my grandmother lived on. </p>
+    <div class="header py-3" style="text-align:center">
+      <h1>Welcome to My Digital Water Journal!</h1>
+    <p class="px-2">I built this journal to document my water adventures, capture my stories, and share the moments that shaped my life on the ocean. The sea hooked me early and beach trips, boat rides, and SCUBA diving ignited a passion that never faded. At 10, I earned my Virginia Boater's License. By 11, I captained my own trips, steering my sisters through the inlets of my grandmother's bay and exploring every corner of the water I could reach. Captivated by marine life, I pursued a Biology degree from Virginia Tech and will continue to study and protect our ocean ecosystems.</p>
+  
+    </div>
     <section id="stories" class="py-5">
       <h2 class="mb-4">My Adventures</h2>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
         <!-- Card 1 -->
         <div class="col">
-          <div class="card h-100 shadow-sm">
-            <img src="Images/diver.JPG" class="card-img-top thumb" alt="Describe what is happening in this photo">
-            <div class="card-body">
-              <span class="badge bg-info mb-2">Scuba Diving</span>
-              <h3 class="card-title h5">5 Days Out to Sea</h3>
-              <p class="card-text">I had the opportunity to go on 2 different five day SCUBA charters exploring the waters around the Bahamas, diving with incredible marine life and experiencing the beauty of the Caribbean Sea.</p>
+          <a href="SCUBA.html" class="text-decoration-none">
+            <div class="card h-100 shadow-sm">
+              <img src="Images/diver.JPG" class="card-img-top thumb" alt="this is an image of scuba diver">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">Scuba Diving</span>
+                <h3 class="card-title h5">5 Days Out to Sea</h3>
+                <p class="card-text">I traveled to the bahamas for 2 different five day SCUBA charters exploring the waters around the Bahamas, and witnessing sharks, rays, sea turtles, and even being followed by a curious barracuda.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <i class="bi bi-geo-alt"></i> Bahamas Tour
+                </small>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">
-                <i class="bi bi-geo-alt"></i> Bahamas Tour
-              </small>
-            </div>
-          </div>
+          </a>
         </div>
 
         <!-- Card 2 -->
         <div class="col">
-          <div class="card h-100 shadow-sm">
-            <img src="Images/Hard Labor.jpg" class="card-img-top thumb" alt="Describe what is happening in this photo">
-            <div class="card-body">
-              <span class="badge bg-info mb-2">Ahoy!</span>
-              <h3 class="card-title h5">My History in Sailing</h3>
-              <p class="card-text">From learning how to sail on a 16ft Sunfish, to racing in my counties sailing club,
-                and eventually going on to be a part of the sailing team at Virginia Tech, Ive always had a love for
-                being out on the water and learning how to harness the power of the wind.</p>
-              
-            </div>
-            <div class="card-footer">
-                <small class="text-body-secondary">
-                  <i class="bi bi-geo-alt"></i> Great Peconic Bay
-                </small>
+          <a href="Sailing.html" class="text-decoration-none">
+            <div class="card h-100 shadow-sm">
+              <img src="Images/Hard Labor.jpg" class="card-img-top thumb" alt="Describe what is happening in this photo">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">Sailing</span>
+                <h3 class="card-title h5">My History in Sailing</h3>
+                <p class="card-text">From learning how to sail on a 16ft Sunfish, to captaning at 62ft sailboat, I've always had a love for
+                  being out on the water and harnessing the power of the wind.</p>
+            
               </div>
-          </div>
+              <div class="card-footer">
+                  <small class="text-body-secondary">
+                    <i class="bi bi-geo-alt"></i> Great Peconic Bay
+                  </small>
+                </div>
+            </div>
+          </a>
         </div>
 
         <!-- Card 3 -->
         <div class="col">
-          <div class="card h-100 shadow-sm">
-            <img src="Images/ManOWar.jpg" class="card-img-top thumb" alt="Describe what is happening in this photo">
-            <div class="card-body">
-              <span class="badge bg-info mb-2">Exploring</span>
-              <h3 class="card-title h5">Studying Marine Life</h3>
-              <p class="card-text">To growing up real life Jellyfishing, saving horseshoe crabs, and eventually going on
-                to study ocean invertebrates at Virginia Tech, Ive always had an interest in the crazy world of marine
-                life.</p>
+          <a href="Marine Life.html" class="text-decoration-none">
+            <div class="card h-100 shadow-sm">
+              <img src="Images/ManOWar.jpg" class="card-img-top thumb" alt="Describe what is happening in this photo">
+              <div class="card-body">
+                <span class="badge bg-info mb-2">Marine Life</span>
+                <h3 class="card-title h5">Adventures Around the Ocean's Creatures</h3>
+                <p class="card-text">To growing up capturing jellyfish on a kayak, scraping barnacles off horseshoe crabs, and eventually going on
+                  to study ocean invertebrates, I keep an interest in marine life.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">
+                  <i class="bi bi-geo-alt"></i> Blacksburg, VA
+                </small>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">
-                <i class="bi bi-geo-alt"></i> Blacksburg, VA
-              </small>
-            </div>
-          </div>
+          </a>
         </div>
 
       </div>
